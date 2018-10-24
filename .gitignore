@@ -1,0 +1,15 @@
+# Virtual Environment
+# It is useful if one project is built on virtualenv. If python3 is applied, pyenv may be a better choice
+venv/*
+
+# Pycharm Developing Environment
+# It is useful if one project is developed on Pycharm IDE. If some developer is proficient in VI, it can be ignored.
+.idea/*
+
+# Python Interpreters
+__pycache__/  # It is generated for compiling python and run python without recompiling
+.pytest_cache/  # It is useful if some project uses pytest as test package
+*.pyc  # It is generated for compiling python and run python without recompiling
+
+# Auto-generated document in Mac OS
+.DS_Store
