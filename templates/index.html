@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic</title>
+    <meta name="'description" content="start from here">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet", href="../static/index.css">
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>Navigation</header>
+    <div class="white">
+        <div class="green">
+            <!--it will rewrite relevant settings ahead, since html runs in a flow-->
+            <h1 id="h1" style="color: darkblue">Hello World!</h1>
+            <!--JS can control the logic of the file, but it must be coded according to the flow-->
+            <script src="{{url_for('static',filename='index.js')}}"></script>
+        </div>
+    </div>
+    <footer>Footer</footer>
+</body>
+</html>
