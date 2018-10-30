@@ -16,3 +16,6 @@ __pycache__/  # It is generated for compiling python and run python without reco
 
 # Auto-generated document in Mac OS
 .DS_Store
+
+# private parameters
+instance/*
